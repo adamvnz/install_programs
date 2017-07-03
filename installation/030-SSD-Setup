@@ -1,0 +1,15 @@
+#!/bin/bash
+update
+echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
+modprobe vboxdrv
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+
+
+echo "################################################################"
+echo "#################   SSD Setup finished except  #################"
+echo "################################################################"
+echo "############## open
+echo "################################################################"
+echo "sudo /etc/fstab and add noatime to the root and/or boot and home"
+echo "################################################################"
