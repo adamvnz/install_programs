@@ -13,19 +13,17 @@ set -e
 
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed archey3 baobab bleachbit catfish clementine conky curl
-sudo pacman -S --noconfirm --needed darktable dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode 
 sudo pacman -S --noconfirm --needed evince filezilla firefox
-sudo pacman -S --noconfirm --needed geary gimp git gksu glances gnome-disk-utility 
-sudo pacman -S --noconfirm --needed gnome-font-viewer gnome-screenshot gnome-system-monitor gnome-terminal gnome-tweak-tool 
+sudo pacman -S --noconfirm --needed gimp git gksu gnome-disk-utility 
 sudo pacman -S --noconfirm --needed gparted gpick grsync
 sudo pacman -S --noconfirm --needed hardinfo hddtemp htop 
-sudo pacman -S --noconfirm --needed inkscape inxi lm_sensors lsb-release meld mlocate mpv
-sudo pacman -S --noconfirm --needed nemo net-tools notify-osd numlockx openshot pinta plank polkit-gnome 
-sudo pacman -S --noconfirm --needed redshift ristretto sane screenfetch scrot shotwell 
+sudo pacman -S --noconfirm --needed inkscape inxi lm_sensors lsb-release meld mlocate
+sudo pacman -S --noconfirm --needed net-tools numlockx openshot pinta plank
+sudo pacman -S --noconfirm --needed redshift sane screenfetch
 sudo pacman -S --noconfirm --needed simple-scan simplescreenrecorder smplayer sysstat 
-sudo pacman -S --noconfirm --needed terminator thunar tumbler
-sudo pacman -S --noconfirm --needed variety vlc vnstat wget unclutter 
+sudo pacman -S --noconfirm --needed thunderbird
+sudo pacman -S --noconfirm --needed variety vlc vnstat wget
 
 
 sudo systemctl enable vnstat
