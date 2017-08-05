@@ -37,13 +37,13 @@ sh install-dropbox-v1.sh
 
 # Minecraft
 
-#sh install-minecraft.sh
+sh install-minecraft.sh
 
 ###############################################################################################
 
 # Insysc
 
-sh install-insync-v1.sh
+# sh install-insync-v1.sh
 
 ###############################################################################################
 
@@ -55,11 +55,11 @@ sh install-insync-v1.sh
 
 # Neofetch
 
-sh install-neofetch-v1.sh
+# sh install-neofetch-v1.sh
 
 ###############################################################################################
 
-# Neofetch
+# Nextcloud
 
 sh install-nextcloud.sh
 
@@ -98,20 +98,20 @@ sh install-teamviewer-v1.sh
 
 # Vivaldi
 
-sh install-vivaldi-v1.sh
+# sh install-vivaldi-v1.sh
 
 ###############################################################################################
 
 # zsh
 
-#sh install-zsh-v1.sh
+# sh install-zsh-v1.sh
 
 ###############################################################################################
 
 
 # hardcodefixer
 
-#sh hardcodefixer-v2.sh
+# sh hardcodefixer-v2.sh
 
 ###############################################################################################
 
