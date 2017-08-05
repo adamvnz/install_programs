@@ -11,6 +11,14 @@
 #
 ##################################################################################################################
 
+sudo pacman -S lib32-fontconfig  --needed --noconfirm
+sudo pacman -S lib32-libpng12 --needed --noconfirm
+sudo pacman -S lib32-libsm --needed --noconfirm
+sudo pacman -S lib32-libxinerama --needed --noconfirm
+sudo pacman -S lib32-libxrender --needed --noconfirm
+sudo pacman -S lib32-libjpeg6-turbo --needed --noconfirm
+sudo pacman -S lib32-libxtst --needed --noconfirm
+
 
 package="teamviewer"
 command="teamviewer"
@@ -65,3 +73,6 @@ else
 	fi
 
 fi
+
+sudo systemctl enable teamviewerd.service
+sudo systemctl start teamviewerd.service
