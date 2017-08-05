@@ -1,5 +1,5 @@
 #!/bin/bash
-update
+# update
 echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
 sudo modprobe vboxdrv
 sudo systemctl enable fstrim.timer
@@ -15,5 +15,5 @@ echo "##############       open       ################################"
 echo "################################################################"
 echo "################################################################"
 echo "################################################################"
-echo "sudo /etc/fstab and add noatime to the root and/or boot and home"
+echo "sudo nano /etc/fstab and add noatime to the root and/or boot and home"
 echo "################################################################"
