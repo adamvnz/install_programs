@@ -5,7 +5,7 @@ sudo modprobe vboxdrv
 sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 # Font and screen corruption in GTK+ applications (missing glyphs after suspend/resume)
-sudo echo "COGL_ATLAS_DEFAULT_BLIT_MODE=framebuffer" >> /etc/environment
+echo "COGL_ATLAS_DEFAULT_BLIT_MODE=framebuffer" | sudo tee --append /etc/environment
 
 
 echo "################################################################"
