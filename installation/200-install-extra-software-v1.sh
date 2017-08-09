@@ -92,7 +92,7 @@ sh install-sublime-text-v1.sh
 
 # Teamviewer
 
-sh install-teamviewer-v1.sh
+sh install-teamviewer-v2.sh
 
 #############################################################################################
 
