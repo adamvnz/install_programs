@@ -43,7 +43,7 @@ sh install-dropbox-v1.sh
 
 # JRE
 
-sh install-jre.sh
+#sh install-jre.sh
 
 ###############################################################################################
 
@@ -103,13 +103,13 @@ sh install-teamviewer-v2.sh
 
 # Vivaldi
 
-sh install-vivaldi-v1.sh
+#sh install-vivaldi-v1.sh
 
 ###############################################################################################
 
 # virtualbox
 
-sh install-virtualbox-v2.sh
+#sh install-virtualbox-v2.sh
 
 ###############################################################################################
 
