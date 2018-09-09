@@ -12,18 +12,21 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
-#sudo pacman -S --noconfirm --needed archey3 bleachbit catfish clementine
-#sudo pacman -S --noconfirm --needed dmidecode 
-#sudo pacman -S --noconfirm --needed evince filezilla firefox
-#sudo pacman -S --noconfirm --needed git gksu gnome-disk-utility 
-#sudo pacman -S --noconfirm --needed gparted grsync
+sudo pacman -S --noconfirm --needed archey3 bleachbit catfish clementine conky
+sudo pacman -S --noconfirm --needed dmidecode 
+sudo pacman -S --noconfirm --needed evince filezilla firefox
+sudo pacman -S --noconfirm --needed git gksu gnome-disk-utility 
+sudo pacman -S --noconfirm --needed gparted grsync
 sudo pacman -S --noconfirm --needed hardinfo hddtemp htop 
 sudo pacman -S --noconfirm --needed inxi lm_sensors lsb-release meld mlocate
 sudo pacman -S --noconfirm --needed net-tools numlockx openssh openvpn networkmanager-openvpn pinta
-sudo pacman -S --noconfirm --needed sane screenfetch
+sudo pacman -S --noconfirm --needed redshift sane simple-scan screenfetch
 sudo pacman -S --noconfirm --needed simplescreenrecorder sysstat 
-sudo pacman -S --noconfirm --needed thunderbird
-sudo pacman -S --noconfirm --needed vlc vnstat xsane wget
+sudo pacman -S --noconfirm --needed thunderbird timeshift
+sudo pacman -S --noconfirm --needed vlc vnstat wget
+
+#Software from AUR
+packer -S --noconfirm --noedit inxi
 
 
 sudo systemctl enable vnstat
