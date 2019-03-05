@@ -12,7 +12,7 @@
 ##################################################################################################################
 
 
-program="brother-mfc-440cn"
+program="brother-mfc-l2700dw"
 
 if which pacaur &> /dev/null; then
 
@@ -82,7 +82,7 @@ fi
 
 
 
-sudo brsaneconfig4 -a name=Brother-MFC-440CN model=Brother MFC-440CN ip=192.168.1.5
+sudo brsaneconfig4 -a name=Brother-MFC-L2700DW model=Brother MFC-L2700DW ip=192.168.1.4
 
 ############################################################################
 
